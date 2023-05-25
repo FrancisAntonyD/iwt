@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>count</title>
+</head>
+<body>
+<script>
+arr=[];
+posc=negc=zeroc=0;
+n=parseInt(prompt("Enter number of values"));
+for(i=0;i<n;i++)
+{
+    val=parseInt(prompt("Enter number of values"));
+    arr.push(val);
+}
+for(i=0;i<n;i++)
+{
+   if(arr[i]>0)
+       posc++;
+else if(arr[i]<0)
+      negc++;
+else
+     zeroc++;
+}
+document.write("Number of positive values"+posc+"<br>"+"Number of negative values"+negc+"<br>"+"Number of zero values="+zeroc);
+</script>
+</body>
+</html>
