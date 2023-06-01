@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Java script</title>
+<script>
+function progress(){
+dom=document.getElementById("exp")value;
+e=eval(dom);
+document.write(e);
+}
+</script>
+</head>
+<body>
+<form>
+<label>Enter an expression</label>;
+<input type="text" name="exp" id="exp"><br/>
+<input type="submit" value="evaluate" onclick="progress()">
+</form>
+</body>
+</html>
+
